@@ -1,0 +1,109 @@
+# 《问道苍穹》项目忽略规则
+# Created by: 主编
+# Date: 2024-01-20
+
+# ===========================================
+# 临时文件和草稿
+# ===========================================
+*.tmp
+*.temp
+*~
+*.autosave
+*.bak
+draft_*.md
+temp_*.md
+草稿*
+临时*
+
+# ===========================================
+# 系统生成文件
+# ===========================================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+desktop.ini
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ===========================================
+# 编辑器和IDE配置
+# ===========================================
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+
+# ===========================================
+# 项目特定文件夹
+# ===========================================
+backup/
+archive/
+old-versions/
+personal-notes/
+research/
+brainstorming/
+output/
+publish/
+dist/
+私人笔记/
+备份/
+
+# ===========================================
+# 导出文件
+# ===========================================
+*.pdf
+*.docx
+*.doc
+*.rtf
+*.odt
+*.html
+*.htm
+*.epub
+*.mobi
+*.azw3
+
+# ===========================================
+# 日志和缓存
+# ===========================================
+*.log
+logs/
+.cache/
+.tmp/
+
+# ===========================================
+# 特殊规则示例
+# ===========================================
+# 忽略所有临时笔记，但保留重要设定
+*-temp.*
+*-临时.*
+!important-*.md
+!重要设定-*.md
+
+# 忽略个人创作文件夹
+个人创作/
+private/
